@@ -1,0 +1,110 @@
+* {
+  margin: 1;
+  padding: 1;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #DCD4D0;
+}
+
+.logo {
+  font-family: Sacramento;
+  font-size: 65px;
+  color:#2E2E2E;
+  text-decoration: none;
+  margin: 490px;
+}
+
+nav {
+  width: 70%;
+  height: 50px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar a {
+  float: left;
+  color: #2E2E2E;
+  font-size: 20px;
+  font-family: Arial;
+  text-align: center;
+  padding: 15px 70px;
+  text-decoration: none;
+}
+
+ul {
+  margin: 30px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 20px;
+}
+
+ul li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #4E423B;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+ul li a:hover::after {
+  width: 100%;
+}
+
+.headline {
+  font-family: Arial;
+  font-size: 40px;
+  color:#2E2E2E;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  font-family: Arial;
+  font-size: 18px;
+  color:#2E2E2E;
+  text-align: left;
+  line-height: 1.5;
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.box1 {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 1450px;
+  background-color: #C1B9B5;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.foto {
+  font-family: Arial;
+  font-size: 18px;
+  color:#2E2E2E;
+  text-align: left;
+  line-height: 1.5;
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.foto img {
+  width: 70%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
