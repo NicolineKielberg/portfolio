@@ -109,3 +109,69 @@ ul li a:hover::after {
   margin-top: -50px;
   margin-left: 60px;
 }
+
+*Portfolio*/
+
+#bigbox2 {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+  height: 750px;
+  background-color: #C1B9B5;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+.headline2 {
+  font-family: Arial;
+  font-size: 40px;
+  color:#2E2E2E;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+title {
+  height: 100%;
+}
+
+.projects {
+  display: flex;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  text-align: center;
+}
+
+.line1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.line2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.text {
+  color: #DEDEDE;
+  background-color: #4e423bbf;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-family: Arial;
+  font-style: normal;
+}
