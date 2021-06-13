@@ -8,20 +8,22 @@ body{
   background-color: #DCD4D0;
 }
 
-.logo {
-  font-family: Sacramento;
-  font-size: 50px;
-  color:#2E2E2E;
-  text-decoration: none;
-  margin: 520px;
+nav {
+  float: left;
+  display: flex;
+  justify-content: center;
+  background-color: #DCD4D0;
+  height: 140px;
+  width: 100%;
+  top: 0;
+  position: fixed;
 }
 
-nav {
-  width: 70%;
-  height: 50px;
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
+.logo {
+  font-family: Sacramento;
+  font-size: 75px;
+  color:#2E2E2E;
+  text-decoration: none;
 }
 
 .navbar a {
@@ -29,9 +31,9 @@ nav {
   color: #2E2E2E;
   font-size: 20px;
   font-family: Arial;
-  text-align: center;
-  padding: 15px 70px;
+  padding: 40px 10px;
   text-decoration: none;
+  margin-right: 35px;
 }
 
 ul {
@@ -40,23 +42,21 @@ ul {
 
 ul li {
   list-style: none;
-  display: inline-block;
   float: left;
   line-height: 20px;
 }
 
-ul li a::after {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: #4E423B;
+ul li a {
   display: block;
-  margin: auto;
-  transition: 0.5s;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: arial;
+  color: black;
+  padding: 0 20px;
 }
 
-ul li a:hover::after {
-  width: 100%;
+ul li a:hover {
+  color: #C1B9B5;
 }
 
 .headline {
@@ -79,7 +79,7 @@ ul li a:hover::after {
 }
 
 .box1 {
-  margin-top: 40px;
+  margin-top: 150px;
   display: flex;
   flex-wrap: wrap;
   width: 70%;
@@ -120,7 +120,7 @@ ul li a:hover::after {
 }
 
 .box2 {
-  margin-top: 40px;
+  margin-top: 150px;
   display: flex;
   flex-wrap: wrap;
   width: 70%;
@@ -149,7 +149,7 @@ ul li a:hover::after {
 }
 
 .box3 {
-  margin-top: 40px;
+  margin-top: 150px;
   display: flex;
   flex-wrap: wrap;
   width: 70%;
@@ -178,7 +178,7 @@ ul li a:hover::after {
 }
 
 .box4 {
-  margin-top: 40px;
+  margin-top: 150px;
   display: flex;
   flex-wrap: wrap;
   width: 70%;
@@ -207,7 +207,7 @@ ul li a:hover::after {
 }
 
 .box5 {
-  margin-top: 40px;
+  margin-top: 150px;
   display: flex;
   flex-wrap: wrap;
   width: 70%;
@@ -236,7 +236,7 @@ ul li a:hover::after {
 }
 
 .box6 {
-  margin-top: 40px;
+  margin-top: 150px;
   display: flex;
   flex-wrap: wrap;
   width: 70%;
