@@ -8,20 +8,20 @@ body{
   background-color: #DCD4D0;
 }
 
-.logo {
-  font-family: Sacramento;
-  font-size: 50px;
-  color:#2E2E2E;
-  text-decoration: none;
-  margin: 520px;
-}
-
 nav {
   width: 70%;
-  height: 50px;
-  background-color: white;
+  height: 90px;
+  background-color: #DCD4D0;
   margin-left: auto;
   margin-right: auto;
+}
+
+.logo {
+  font-family: Sacramento;
+  font-size: 75px;
+  color:#2E2E2E;
+  text-decoration: none;
+  text-align: center;
 }
 
 .navbar a {
@@ -29,9 +29,9 @@ nav {
   color: #2E2E2E;
   font-size: 20px;
   font-family: Arial;
-  text-align: center;
-  padding: 15px 70px;
+  padding: 40px 10px;
   text-decoration: none;
+  text-align: center;
 }
 
 ul {
@@ -40,23 +40,21 @@ ul {
 
 ul li {
   list-style: none;
-  display: inline-block;
   float: left;
   line-height: 20px;
 }
 
-ul li a::after {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: #4E423B;
+ul li a {
   display: block;
-  margin: auto;
-  transition: 0.5s;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: arial;
+  color: black;
+  padding: 0 20px;
 }
 
-ul li a:hover::after {
-  width: 100%;
+ul li a:hover {
+  color: #C1B9B5;
 }
 
 /*forside*/
@@ -113,7 +111,7 @@ ul li a:hover::after {
 /*portfolio*/
 
 #bigbox2 {
-  margin-top: 150px;
+  margin-top: 200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -225,18 +223,17 @@ title {
 
 .adobeprograms {
   display: flex;
+  position: relative;
   width: 250px;
   height: 200px;
-  justify-content:space-around;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
 }
 
 
 /*Hvem er jeg*/
 
 #bigbox3 {
-  margin-top: 150px;
+  margin-top: 200px;
   display: flex;
   flex-wrap: wrap;
   width: 70%;
@@ -290,7 +287,7 @@ title {
 /*kontakt*/
 
 #bigbox4 {
-  margin-top: 150px;
+  margin-top: 200px;
   display: flex;
   flex-wrap: wrap;
   width: 70%;
